@@ -8,8 +8,8 @@ int main()
 {
     ifstream in;
     ofstream out;
-    in.open("data.txt");
-    out.open("out.txt");
+    in.open("data.txt");    //Открытие потока на чтение
+    out.open("out.txt");    //Открытие потока на запись
 
     int counterZapis=0;
     string zapis;
